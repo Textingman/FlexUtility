@@ -4,7 +4,6 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import { useState, useEffect, Suspense } from 'react';
 import Image from 'next/image';
 import { CheckCircle } from 'lucide-react';
-import Script from 'next/script';
 
 function VerifyPageContent() {
   const searchParams = useSearchParams();
@@ -137,31 +136,15 @@ function VerifyPageContent() {
 
 export default function VerifyPage() {
   return (
-    <>
-      {/* Google Analytics */}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-V4BBDNTTF9"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-V4BBDNTTF9');
-        `}
-      </Script>
-
-      <Suspense fallback={
-        <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white flex items-center justify-center">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#d364a4] mx-auto"></div>
-            <p className="mt-4 text-gray-600">Loading...</p>
-          </div>
+    <Suspense fallback={
+      <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#d364a4] mx-auto"></div>
+          <p className="mt-4 text-gray-600">Loading...</p>
         </div>
-      }>
-        <VerifyPageContent />
-      </Suspense>
-    </>
+      </div>
+    }>
+      <VerifyPageContent />
+    </Suspense>
   );
 }
