@@ -287,7 +287,7 @@ export default function TermsPage() {
       {/* Footer */}
       <footer className="bg-[#3b3a41] text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-5 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
               <p className="text-gray-400">
@@ -328,6 +328,14 @@ export default function TermsPage() {
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
                 support@bwoverify.com
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Business Address</h4>
+              <p className="text-gray-400">
+                1776 Broadway, Floor 23<br />
+                New York, New York 10019<br />
+                United States of America
               </p>
             </div>
           </div>

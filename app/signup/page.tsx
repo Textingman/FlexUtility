@@ -138,7 +138,7 @@ export default function SignupPage() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent text-black"
                       placeholder="John Doe"
                     />
                   </div>
@@ -160,7 +160,7 @@ export default function SignupPage() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent text-black"
                       placeholder="john@company.com"
                     />
                   </div>
@@ -182,7 +182,7 @@ export default function SignupPage() {
                       required
                       value={formData.company}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent text-black"
                       placeholder="Acme Inc."
                     />
                   </div>
@@ -203,7 +203,7 @@ export default function SignupPage() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent"
+                      className="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent text-black"
                       placeholder="(555) 123-4567"
                     />
                   </div>
@@ -220,7 +220,7 @@ export default function SignupPage() {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent"
+                    className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent text-black"
                     placeholder="How do you plan to use BWO Verify?"
                   />
                 </div>
@@ -236,7 +236,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-[#d364a4] focus:ring-[#d364a4] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box and submitting this form, you agree to receive account notification text messages from BWO Verify. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@bwoverify.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form.
+                        By checking this box and submitting this form, you agree to receive account notification text messages from BWO Verify. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@bwoverify.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by {'{brand}'}.
                       </label>
                     </div>
                   </div>
@@ -295,7 +295,7 @@ export default function SignupPage() {
       {/* Footer */}
       <footer className="bg-[#3b3a41] text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-5 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
               <p className="text-gray-400">
@@ -336,6 +336,14 @@ export default function SignupPage() {
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
                 support@bwoverify.com
+              </p>
+            </div>
+            <div>
+              <h4 className="font-semibold mb-4">Business Address</h4>
+              <p className="text-gray-400">
+                1776 Broadway, Floor 23<br />
+                New York, New York 10019<br />
+                United States of America
               </p>
             </div>
           </div>
