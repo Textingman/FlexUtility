@@ -333,8 +333,8 @@ export default function TermsPage() {
             <div>
               <h4 className="font-semibold mb-4">Business Address</h4>
               <p className="text-gray-400">
-                1776 Broadway, Floor 23<br />
-                New York, New York 10019<br />
+                2000 NE 42nd Ave PMB 1251<br />
+                Portland, OR 97213<br />
                 United States of America
               </p>
             </div>
