@@ -33,6 +33,9 @@ export default function TermsPage() {
                 <Link href="/terms" className="text-gray-900 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
+                <Link href="/contact" className="text-gray-600 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
+                  Contact
+                </Link>
                 <Link href="/signup" className="bg-[#d364a4] text-white hover:bg-[#c24d93] px-4 py-2 rounded-md text-sm font-medium">
                   Get Started
                 </Link>
@@ -328,6 +331,9 @@ export default function TermsPage() {
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
                 support@bwoverify.com
+              </p>
+              <p className="text-gray-400 mt-2">
+                (503) 333-4444
               </p>
             </div>
             <div>
