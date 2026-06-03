@@ -50,6 +50,9 @@ export default function ContactPage() {
                 <Link href="/terms" className="text-gray-600 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
+                <Link href="/sms" className="text-gray-600 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
+                  SMS Policy
+                </Link>
                 <Link href="/contact" className="text-gray-900 hover:text-[#d364a4] px-3 py-2 rounded-md text-sm font-medium">
                   Contact
                 </Link>
@@ -272,6 +275,11 @@ export default function ContactPage() {
                 <li>
                   <Link href="/terms" className="text-gray-400 hover:text-white">
                     Terms of Service
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/sms" className="text-gray-400 hover:text-white">
+                    SMS Policy
                   </Link>
                 </li>
               </ul>
