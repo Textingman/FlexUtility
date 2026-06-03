@@ -91,7 +91,7 @@ export default function ContactPage() {
               href="tel:+15033334444"
               className="text-[#d364a4] font-semibold text-lg hover:underline"
             >
-              (503) 333-4444
+              (844) 435-3969
             </a>
           </div>
 
@@ -282,7 +282,7 @@ export default function ContactPage() {
                 support@bwoverify.com
               </p>
               <p className="text-gray-400 mt-2">
-                (503) 333-4444
+                (844) 435-3969
               </p>
             </div>
             <div>

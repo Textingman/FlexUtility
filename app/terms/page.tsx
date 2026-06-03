@@ -333,7 +333,7 @@ export default function TermsPage() {
                 support@bwoverify.com
               </p>
               <p className="text-gray-400 mt-2">
-                (503) 333-4444
+                (844) 435-3969
               </p>
             </div>
             <div>
