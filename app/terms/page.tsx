@@ -61,7 +61,7 @@ export default function TermsPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Acceptance of Terms</h2>
           <p className="text-gray-600 mb-6">
-            By accessing or using BWO Verify's SMS verification service ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, developers, and end users.
+            By accessing or using BWO Verify's omnichannel transactional messaging platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, organizations, and their authorized representatives who use the platform to deliver identity verification, transactional account notifications, one-time passwords, and related communications to their customers.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Description of Service</h2>
