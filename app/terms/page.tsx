@@ -66,14 +66,16 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Description of Service</h2>
           <p className="text-gray-600 mb-6">
-            BWO Verify provides a carrier-compliant SMS verification platform that allows businesses to verify customer phone numbers through a secure, pass-through verification page. The Service includes:
+            BWO Verify is a complete omnichannel transactional messaging platform that enables businesses to verify customer identities, deliver account notifications, and send one-time passwords (OTPs) across multiple communication channels — including SMS, email, voice, RCS, and push notifications. The Service includes:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-            <li>SMS verification landing pages</li>
-            <li>Phone number verification flow</li>
-            <li>Parameter preservation and redirect functionality</li>
-            <li>Multi-brand support with customizable styling</li>
-            <li>Carrier-compliant infrastructure</li>
+            <li>Consumer identity verification workflows (SMS, email, and voice)</li>
+            <li>Transactional account notifications (payment confirmations, account change alerts, appointment reminders, shipping updates)</li>
+            <li>One-time password (OTP) delivery for two-factor authentication, secure checkout, and password resets</li>
+            <li>Multi-channel message delivery across SMS, email, voice, RCS, and push notifications</li>
+            <li>Multi-brand white-label support with customizable styling</li>
+            <li>Carrier-compliant 10DLC infrastructure</li>
+            <li>Document link delivery and form abandonment re-engagement tools</li>
           </ul>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Account Registration and Security</h2>
@@ -269,12 +271,34 @@ export default function TermsPage() {
             You may not assign or transfer these Terms or your rights under these Terms without our prior written consent. We may assign these Terms without restriction.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">15. Changes to Terms</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">15. SMS Communications</h2>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.1 Scope of SMS Use</h3>
+          <p className="text-gray-600 mb-6">
+            BWO Verify only uses SMS to contact users about transactional account notifications within their portal. This includes, but is not limited to: account activity alerts, identity verification codes, one-time passwords (OTPs), payment confirmations, and other notifications directly related to a user&apos;s account or service activity.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.2 No Marketing SMS</h3>
+          <p className="text-gray-600 mb-6">
+            BWO Verify does not send promotional, marketing, or advertising SMS messages to users. All SMS communications sent by BWO Verify are strictly transactional in nature and are triggered by account-related events or user-initiated actions within the portal.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.3 Opt-Out</h3>
+          <p className="text-gray-600 mb-6">
+            Users may opt out of non-essential SMS notifications at any time by updating their notification preferences within their account portal or by replying STOP to any SMS message. Please note that opting out of certain transactional notifications (such as OTPs or security alerts) may limit your ability to access or use certain features of the Service.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.4 Message Frequency</h3>
+          <p className="text-gray-600 mb-6">
+            Message frequency varies based on account activity. Standard message and data rates may apply depending on your mobile carrier and plan.
+          </p>
+
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">16. Changes to Terms</h2>
           <p className="text-gray-600 mb-6">
             We reserve the right to modify these Terms at any time. We will notify you of material changes by posting the updated Terms on our website and updating the "Last Updated" date. Your continued use of the Service after changes become effective constitutes acceptance of the modified Terms.
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">16. Contact Information</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">17. Contact Information</h2>
           <p className="text-gray-600 mb-4">
             If you have any questions about these Terms, please contact us:
           </p>
