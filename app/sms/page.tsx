@@ -198,7 +198,7 @@ export default function SMSPolicyPage() {
                 </svg>
               </a>
               <a
-                href="https://www.google.com/search?q=BWO+Verify"
+                href="https://share.google/EAXcnRMGdAAxZKiTu"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="BWO Verify on Google"
