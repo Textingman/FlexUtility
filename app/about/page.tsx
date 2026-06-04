@@ -50,67 +50,70 @@ export default function AboutPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-pink-50 to-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
-              About BWO Verify
-            </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We're building the future of SMS verification, helping businesses verify customer identity while improving delivery rates.
-            </p>
-          </div>
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div className="text-center">
+          <span className="inline-block bg-pink-100 text-[#d364a4] text-sm font-semibold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
+            About BWO Verify
+          </span>
+          <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl leading-tight mb-6">
+            Who We Are
+          </h1>
+          <p className="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
+            We&apos;re building the future of SMS verification, helping businesses verify customer identity while improving delivery rates.
+          </p>
         </div>
       </section>
 
       {/* Mission Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
-            <p className="text-lg text-gray-600 mb-4">
-              BWO Verify was created to solve a critical problem: businesses need a reliable way to verify customer identity via SMS while maintaining high delivery rates.
-            </p>
-            <p className="text-lg text-gray-600 mb-4">
-              We provide a simple, secure verification platform that acts as a trusted intermediary between businesses and their customers.
-            </p>
-            <p className="text-lg text-gray-600">
-              Our goal is to make SMS verification seamless, secure, and accessible for businesses of all sizes.
-            </p>
-          </div>
-          <div className="bg-pink-50 rounded-2xl p-8">
-            <div className="space-y-6">
-              <div className="flex items-start">
-                <div className="flex-shrink-0">
-                  <Target className="w-8 h-8 text-[#d364a4]" />
+      <section className="bg-white py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
+              <p className="text-lg text-gray-600 mb-4">
+                BWO Verify was created to solve a critical problem: businesses need a reliable way to verify customer identity via SMS while maintaining high delivery rates.
+              </p>
+              <p className="text-lg text-gray-600 mb-4">
+                We provide a simple, secure verification platform that acts as a trusted intermediary between businesses and their customers.
+              </p>
+              <p className="text-lg text-gray-600">
+                Our goal is to make SMS verification seamless, secure, and accessible for businesses of all sizes.
+              </p>
+            </div>
+            <div className="bg-pink-50 rounded-2xl p-8">
+              <div className="space-y-6">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <Target className="w-8 h-8 text-[#d364a4]" />
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Focused on Quality</h3>
+                    <p className="text-gray-600">
+                      Built from the ground up to meet industry standards and best practices.
+                    </p>
+                  </div>
                 </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Focused on Quality</h3>
-                  <p className="text-gray-600">
-                    Built from the ground up to meet industry standards and best practices.
-                  </p>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <Shield className="w-8 h-8 text-[#d364a4]" />
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Security First</h3>
+                    <p className="text-gray-600">
+                      Your customers&apos; data is protected with enterprise-grade security measures.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div className="flex items-start">
-                <div className="flex-shrink-0">
-                  <Shield className="w-8 h-8 text-[#d364a4]" />
-                </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Security First</h3>
-                  <p className="text-gray-600">
-                    Your customers' data is protected with enterprise-grade security measures.
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <div className="flex-shrink-0">
-                  <Zap className="w-8 h-8 text-[#d364a4]" />
-                </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Lightning Fast</h3>
-                  <p className="text-gray-600">
-                    Optimized for speed with sub-2-second page loads on mobile networks.
-                  </p>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0">
+                    <Zap className="w-8 h-8 text-[#d364a4]" />
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Lightning Fast</h3>
+                    <p className="text-gray-600">
+                      Optimized for speed with sub-2-second page loads on mobile networks.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -120,7 +123,7 @@ export default function AboutPage() {
 
 
       {/* Why Choose Us Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Businesses Choose Us</h2>
           <p className="text-xl text-gray-600">
@@ -172,20 +175,22 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-[#d364a4] py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Get Started?
-          </h2>
-          <p className="text-xl text-pink-100 mb-8 max-w-2xl mx-auto">
-            Join businesses that trust BWO Verify for SMS verification.
-          </p>
-          <Link
-            href="/signup"
-            className="inline-block px-8 py-4 bg-white text-[#d364a4] text-lg font-semibold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
-          >
-            Get Started Today
-          </Link>
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="bg-[#d364a4] rounded-2xl shadow-2xl overflow-hidden">
+          <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
+            <h2 className="text-4xl font-bold text-white mb-6">
+              Ready to Get Started?
+            </h2>
+            <p className="text-xl text-pink-100 mb-8 max-w-2xl mx-auto">
+              Join businesses that trust BWO Verify for SMS verification.
+            </p>
+            <Link
+              href="/signup"
+              className="inline-block px-8 py-4 bg-white text-[#d364a4] text-lg font-semibold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
+            >
+              Get Started Today
+            </Link>
+          </div>
         </div>
       </section>
 
