@@ -278,7 +278,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.1 Scope of SMS Use</h3>
           <p className="text-gray-600 mb-6">
-            BWO Verify only uses SMS to contact users about transactional account notifications and alerts within their portal. SMS messages are limited strictly to notifications directly triggered by account activity, such as account status updates and account-related alerts. No other use of SMS is permitted under this Service.
+            BWO Verify only uses SMS to send alert-related text messages to users within their portal. SMS messages are limited strictly to alerts directly triggered by account activity, such as account status updates and account-related alerts. No other use of SMS is permitted under this Service.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.2 No Marketing SMS</h3>
