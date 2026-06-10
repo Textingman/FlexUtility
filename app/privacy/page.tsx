@@ -215,7 +215,7 @@ export default function PrivacyPage() {
             <div>
               <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
               <p className="text-gray-400">
-                Carrier-compliant SMS verification for businesses.
+                Omnichannel transactional messaging for businesses.
               </p>
             </div>
             <div>
