@@ -12,8 +12,8 @@ export default function HomePage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/bwo-verify-logo-trimmed.png" 
-                  alt="BWO Verify" 
+                  src="/volt-transactional-logo.png" 
+                  alt="Volt Transactional" 
                   width={300} 
                   height={100}
                   className="h-20 w-auto"
@@ -61,7 +61,7 @@ export default function HomePage() {
             <span className="block text-[#d364a4]">On Any Channel, Every Time</span>
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
-            BWO Verify is a complete transactional messaging platform — delivering identity verification, account notifications, and one-time passwords across SMS, email, voice, and more. One platform, every channel, every critical moment.
+            Volt Transactional is a complete transactional messaging platform — delivering identity verification, account notifications, and one-time passwords across SMS, email, voice, and more. One platform, every channel, every critical moment.
           </p>
           <div className="mt-10 flex justify-center gap-4 flex-wrap">
             <Link
@@ -169,7 +169,7 @@ export default function HomePage() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900">Meet Customers Where They Are</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
-            Don&apos;t limit your reach to a single channel. BWO Verify delivers your messages across every major communication channel.
+            Don&apos;t limit your reach to a single channel. Volt Transactional delivers your messages across every major communication channel.
           </p>
         </div>
 
@@ -216,11 +216,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Why BWO Verify */}
+      {/* Why Volt Transactional */}
       <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900">Why Choose BWO Verify?</h2>
+            <h2 className="text-4xl font-bold text-gray-900">Why Choose Volt Transactional?</h2>
             <p className="mt-4 text-xl text-gray-600">
               Built for reliability, compliance, and scale — across every channel
             </p>
@@ -343,7 +343,7 @@ export default function HomePage() {
           <div className="rounded-lg overflow-hidden sticky top-8 flex items-start justify-center">
             <Image 
               src="/Phoneimage.png" 
-              alt="BWO Verify Solutions" 
+              alt="Volt Transactional Solutions" 
               width={350} 
               height={350}
               className="w-auto h-auto object-contain max-w-full"
@@ -357,10 +357,10 @@ export default function HomePage() {
         <div className="bg-[#d364a4] rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Build on BWO Verify?
+              Ready to Build on Volt Transactional?
             </h2>
             <p className="text-xl text-pink-100 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust BWO Verify for identity verification, account notifications, and one-time passwords — delivered on any channel, at any scale.
+              Join businesses that trust Volt Transactional for identity verification, account notifications, and one-time passwords — delivered on any channel, at any scale.
             </p>
             <Link
               href="/signup"
@@ -377,7 +377,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
+              <h3 className="text-xl font-bold mb-4">Volt Transactional</h3>
               <p className="text-gray-400">
                 Omnichannel transactional messaging for businesses.
               </p>
@@ -420,7 +420,7 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@bwoverify.com
+                support@volttransactional.com
               </p>
               <p className="text-gray-400 mt-2">
                 (844) 435-3969
@@ -436,13 +436,13 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2025 BWO Verify. All rights reserved.</p>
+            <p>&copy; 2025 Volt Transactional. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a
                 href="https://www.linkedin.com/company/120453967/admin/dashboard/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on LinkedIn"
+                aria-label="Volt Transactional on LinkedIn"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
@@ -453,7 +453,7 @@ export default function HomePage() {
                 href="https://share.google/EAXcnRMGdAAxZKiTu"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on Google"
+                aria-label="Volt Transactional on Google"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">

@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Shield, Target, Users, Zap } from 'lucide-react';
+import { Shield, Target, Users, Zap, CheckCircle, ShieldCheck, Bell, KeyRound, MessageSquare } from 'lucide-react';
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white">
       {/* Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -12,11 +12,12 @@ export default function AboutPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/bwo-verify-logo-trimmed.png" 
-                  alt="BWO Verify" 
+                  src="/volt-transactional-logo.png" 
+                  alt="Volt Transactional" 
                   width={300} 
                   height={100}
                   className="h-20 w-auto"
+                  priority
                 />
               </Link>
             </div>
@@ -53,14 +54,28 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
           <span className="inline-block bg-pink-100 text-[#d364a4] text-sm font-semibold px-4 py-1.5 rounded-full mb-6 tracking-wide uppercase">
-            About BWO Verify
+            About Volt Transactional
           </span>
-          <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl leading-tight mb-6">
+          <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl leading-tight">
             Who We Are
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-xl text-gray-600">
-            We&apos;re building the future of SMS verification, helping businesses verify customer identity while improving delivery rates.
+            We&apos;re building the future of omnichannel transactional messaging — helping businesses verify customer identity, deliver account notifications, and send one-time passwords across every channel.
           </p>
+          <div className="mt-10 flex justify-center gap-4 flex-wrap">
+            <Link
+              href="/signup"
+              className="px-8 py-4 bg-[#d364a4] text-white text-lg font-semibold rounded-lg hover:bg-[#c24d93] transition-colors shadow-lg"
+            >
+              Get Started Free
+            </Link>
+            <Link
+              href="/contact"
+              className="px-8 py-4 bg-white text-[#d364a4] text-lg font-semibold rounded-lg hover:bg-gray-50 transition-colors border-2 border-[#d364a4]"
+            >
+              Contact Us
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -71,47 +86,47 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-4">
-                BWO Verify was created to solve a critical problem: businesses need a reliable way to verify customer identity via SMS while maintaining high delivery rates.
+                Volt Transactional was created to solve a critical problem: businesses need a reliable way to reach customers across every channel — SMS, email, voice, RCS, and push — for verification, notifications, and authentication.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                We provide a simple, secure verification platform that acts as a trusted intermediary between businesses and their customers.
+                We provide a simple, secure omnichannel messaging platform that acts as a trusted intermediary between businesses and their customers, ensuring every critical message gets delivered.
               </p>
               <p className="text-lg text-gray-600">
-                Our goal is to make SMS verification seamless, secure, and accessible for businesses of all sizes.
+                Our goal is to make transactional messaging seamless, secure, and accessible for businesses of all sizes — on any channel, every time.
               </p>
             </div>
-            <div className="bg-pink-50 rounded-2xl p-8">
+            <div className="bg-gradient-to-b from-pink-50 to-white border border-pink-100 rounded-2xl p-8">
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0">
-                    <Target className="w-8 h-8 text-[#d364a4]" />
+                  <div className="flex-shrink-0 bg-pink-100 w-12 h-12 rounded-xl flex items-center justify-center">
+                    <Target className="w-6 h-6 text-[#d364a4]" />
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Focused on Quality</h3>
                     <p className="text-gray-600">
-                      Built from the ground up to meet industry standards and best practices.
+                      Built from the ground up to meet industry standards and carrier compliance best practices.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="flex-shrink-0">
-                    <Shield className="w-8 h-8 text-[#d364a4]" />
+                  <div className="flex-shrink-0 bg-pink-100 w-12 h-12 rounded-xl flex items-center justify-center">
+                    <Shield className="w-6 h-6 text-[#d364a4]" />
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Security First</h3>
                     <p className="text-gray-600">
-                      Your customers&apos; data is protected with enterprise-grade security measures.
+                      Your customers&apos; data is protected with enterprise-grade security measures across every channel.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <div className="flex-shrink-0">
-                    <Zap className="w-8 h-8 text-[#d364a4]" />
+                  <div className="flex-shrink-0 bg-pink-100 w-12 h-12 rounded-xl flex items-center justify-center">
+                    <Zap className="w-6 h-6 text-[#d364a4]" />
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Lightning Fast</h3>
                     <p className="text-gray-600">
-                      Optimized for speed with sub-2-second page loads on mobile networks.
+                      Optimized routing delivers OTPs and notifications in under 2 seconds across SMS, email, and voice.
                     </p>
                   </div>
                 </div>
@@ -121,55 +136,112 @@ export default function AboutPage() {
         </div>
       </section>
 
-
-      {/* Why Choose Us Section */}
+      {/* What We Do Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Businesses Choose Us</h2>
-          <p className="text-xl text-gray-600">
-            Trusted by companies that value compliance, security, and reliability
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">One Platform. Three Core Solutions.</h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Everything your business needs to verify, notify, and authenticate customers — delivered on the channel they prefer.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="text-center">
-            <div className="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-8 h-8 text-[#d364a4]" />
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-gradient-to-b from-pink-50 to-white border border-pink-100 rounded-2xl p-8 hover:shadow-xl transition-shadow">
+            <div className="bg-pink-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
+              <ShieldCheck className="w-7 h-7 text-[#d364a4]" />
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Reliable Service</h3>
-            <p className="text-gray-600">
-              Built with industry best practices for maximum reliability.
+            <h3 className="text-2xl font-bold text-gray-900 mb-3">Consumer Identity Verification</h3>
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              Confirm who your customers are before they access sensitive services. Carrier-compliant verification workflows delivered via SMS, email, or voice.
+            </p>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Multi-channel verification flows</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Document link delivery</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Form abandonment re-engagement</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Multi-brand white-label support</li>
+            </ul>
+          </div>
+
+          <div className="bg-gradient-to-b from-pink-50 to-white border border-pink-100 rounded-2xl p-8 hover:shadow-xl transition-shadow">
+            <div className="bg-pink-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
+              <Bell className="w-7 h-7 text-[#d364a4]" />
+            </div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-3">Transactional Account Notifications</h3>
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              Keep customers informed in real time with automated, event-driven notifications triggered by account activity — sent via SMS, email, push, or voice.
+            </p>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Payment confirmations & receipts</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Account change alerts</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Appointment & booking reminders</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Shipping & delivery updates</li>
+            </ul>
+          </div>
+
+          <div className="bg-gradient-to-b from-pink-50 to-white border border-pink-100 rounded-2xl p-8 hover:shadow-xl transition-shadow">
+            <div className="bg-pink-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6">
+              <KeyRound className="w-7 h-7 text-[#d364a4]" />
+            </div>
+            <h3 className="text-2xl font-bold text-gray-900 mb-3">One-Time Passwords</h3>
+            <p className="text-gray-600 mb-6 leading-relaxed">
+              Deliver secure, time-sensitive OTPs for login, checkout, and high-risk actions — via SMS, email, or voice call. Fast delivery and full compliance built in.
+            </p>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Two-factor authentication (2FA)</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Secure checkout verification</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Password reset codes</li>
+              <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-[#d364a4] flex-shrink-0" /> Sub-2-second delivery speeds</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Choose Us Section */}
+      <section className="bg-white py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Businesses Choose Us</h2>
+            <p className="text-xl text-gray-600">
+              Built for reliability, compliance, and scale — across every channel
             </p>
           </div>
 
-          <div className="text-center">
-            <div className="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="w-8 h-8 text-[#d364a4]" />
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow">
+              <div className="flex justify-center mb-4">
+                <CheckCircle className="w-12 h-12 text-[#d364a4]" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
+                Carrier &amp; Channel Compliant
+              </h3>
+              <p className="text-gray-600 text-center">
+                Fully 10DLC-registered and compliant across all channels — your messages reach customers, not spam folders.
+              </p>
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Multi-Brand Support</h3>
-            <p className="text-gray-600">
-              Support multiple brands with customizable styling options.
-            </p>
-          </div>
 
-          <div className="text-center">
-            <div className="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Zap className="w-8 h-8 text-[#d364a4]" />
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow">
+              <div className="flex justify-center mb-4">
+                <Users className="w-12 h-12 text-[#d364a4]" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
+                Multi-Brand Support
+              </h3>
+              <p className="text-gray-600 text-center">
+                Run multiple brands from a single account with customizable styling and white-label options on every channel.
+              </p>
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">High Performance</h3>
-            <p className="text-gray-600">
-              Global CDN ensures fast load times worldwide.
-            </p>
-          </div>
 
-          <div className="text-center">
-            <div className="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Target className="w-8 h-8 text-[#d364a4]" />
+            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow">
+              <div className="flex justify-center mb-4">
+                <MessageSquare className="w-12 h-12 text-[#d364a4]" />
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
+                Easy Integration
+              </h3>
+              <p className="text-gray-600 text-center">
+                Simple URL-based integration with comprehensive documentation. Get up and running in minutes, not days.
+              </p>
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Easy Integration</h3>
-            <p className="text-gray-600">
-              Simple URL-based integration with comprehensive documentation.
-            </p>
           </div>
         </div>
       </section>
@@ -179,10 +251,10 @@ export default function AboutPage() {
         <div className="bg-[#d364a4] rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Get Started?
+              Ready to Build on Volt Transactional?
             </h2>
             <p className="text-xl text-pink-100 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust BWO Verify for SMS verification.
+              Join businesses that trust Volt Transactional for identity verification, account notifications, and one-time passwords — delivered on any channel, at any scale.
             </p>
             <Link
               href="/signup"
@@ -199,9 +271,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
+              <h3 className="text-xl font-bold mb-4">Volt Transactional</h3>
               <p className="text-gray-400">
-                SMS verification for businesses.
+                Omnichannel transactional messaging for businesses.
               </p>
             </div>
             <div>
@@ -242,7 +314,7 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@bwoverify.com
+                support@volttransactional.com
               </p>
               <p className="text-gray-400 mt-2">
                 (844) 435-3969
@@ -258,13 +330,13 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2025 BWO Verify. All rights reserved.</p>
+            <p>&copy; 2025 Volt Transactional. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a
                 href="https://www.linkedin.com/company/120453967/admin/dashboard/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on LinkedIn"
+                aria-label="Volt Transactional on LinkedIn"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
@@ -275,7 +347,7 @@ export default function AboutPage() {
                 href="https://share.google/EAXcnRMGdAAxZKiTu"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on Google"
+                aria-label="Volt Transactional on Google"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">

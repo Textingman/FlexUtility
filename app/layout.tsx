@@ -14,20 +14,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BWO Verify | Omnichannel Transactional Messaging Platform",
-  description: "BWO Verify is a complete transactional messaging platform — delivering consumer identity verification, account notifications, and one-time passwords across SMS, email, voice, RCS, and push. One platform, every channel.",
+  title: "Volt Transactional | Omnichannel Transactional Messaging Platform",
+  description: "Volt Transactional is a complete transactional messaging platform — delivering consumer identity verification, account notifications, and one-time passwords across SMS, email, voice, RCS, and push. One platform, every channel.",
   keywords: "transactional messaging, SMS verification, OTP, one-time password, identity verification, account notifications, omnichannel messaging, 2FA, RCS, push notifications",
   openGraph: {
-    title: "BWO Verify | Omnichannel Transactional Messaging Platform",
-    description: "Reach customers on any channel. BWO Verify delivers identity verification, account notifications, and OTPs across SMS, email, voice, RCS, and push — all from one platform.",
-    url: "https://bwoverify.com",
-    siteName: "BWO Verify",
+    title: "Volt Transactional | Omnichannel Transactional Messaging Platform",
+    description: "Reach customers on any channel. Volt Transactional delivers identity verification, account notifications, and OTPs across SMS, email, voice, RCS, and push — all from one platform.",
+    url: "https://volttransactional.com",
+    siteName: "Volt Transactional",
     images: [
       {
-        url: "https://bwoverify.com/bwo-verify-logo-trimmed.png",
+        url: "https://volttransactional.com/volt-transactional-logo.png",
         width: 1200,
         height: 630,
-        alt: "BWO Verify — Omnichannel Transactional Messaging",
+        alt: "Volt Transactional — Omnichannel Transactional Messaging",
       },
     ],
     locale: "en_US",
@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BWO Verify | Omnichannel Transactional Messaging Platform",
+    title: "Volt Transactional | Omnichannel Transactional Messaging Platform",
     description: "Reach customers on any channel. Identity verification, account notifications, and OTPs across SMS, email, voice, RCS, and push.",
-    images: ["https://bwoverify.com/bwo-verify-logo-trimmed.png"],
+    images: ["https://volttransactional.com/volt-transactional-logo.png"],
   },
-  metadataBase: new URL("https://bwoverify.com"),
+  metadataBase: new URL("https://volttransactional.com"),
 };
 
 export default function RootLayout({

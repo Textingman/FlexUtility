@@ -11,8 +11,8 @@ export default function SMSPolicyPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/bwo-verify-logo-trimmed.png" 
-                  alt="BWO Verify" 
+                  src="/volt-transactional-logo.png" 
+                  alt="Volt Transactional" 
                   width={300} 
                   height={100}
                   className="h-20 w-auto"
@@ -63,18 +63,18 @@ export default function SMSPolicyPage() {
         <div className="prose prose-lg max-w-none">
 
           <p className="text-gray-600 mb-8">
-            This SMS Policy describes how BWO Verify uses SMS (text messaging) to communicate with users of our platform. This policy is incorporated into and forms part of our{' '}
+            This SMS Policy describes how Volt Transactional uses SMS (text messaging) to communicate with users of our platform. This policy is incorporated into and forms part of our{' '}
             <Link href="/terms" className="text-[#d364a4] hover:text-[#c24d93] font-medium">Terms of Service</Link>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Scope of SMS Use</h2>
           <p className="text-gray-600 mb-6">
-            BWO Verify only uses SMS to contact users about transactional account notifications and alerts within their portal. SMS messages are limited strictly to notifications directly triggered by account activity, such as account status updates and account-related alerts. No other use of SMS is permitted under this Service.
+            Volt Transactional only uses SMS to contact users about transactional account notifications and alerts within their portal. SMS messages are limited strictly to notifications directly triggered by account activity, such as account status updates and account-related alerts. No other use of SMS is permitted under this Service.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. No Marketing SMS</h2>
           <p className="text-gray-600 mb-6">
-            BWO Verify does not send promotional, marketing, or advertising SMS messages to users. All SMS communications sent by BWO Verify are strictly transactional in nature and are triggered by account-related events or user-initiated actions within the portal.
+            Volt Transactional does not send promotional, marketing, or advertising SMS messages to users. All SMS communications sent by Volt Transactional are strictly transactional in nature and are triggered by account-related events or user-initiated actions within the portal.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">3. Opt-Out</h2>
@@ -82,32 +82,32 @@ export default function SMSPolicyPage() {
             Users may opt out of non-essential SMS notifications at any time by updating their notification preferences within their account portal or by replying <strong>STOP</strong> to any SMS message. Please note that opting out of certain transactional notifications (such as OTPs or security alerts) may limit your ability to access or use certain features of the Service.
           </p>
           <p className="text-gray-600 mb-6">
-            To re-enable SMS notifications after opting out, reply <strong>START</strong> to any previous SMS from BWO Verify, or update your preferences in your account portal.
+            To re-enable SMS notifications after opting out, reply <strong>START</strong> to any previous SMS from Volt Transactional, or update your preferences in your account portal.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">4. Message Frequency</h2>
           <p className="text-gray-600 mb-6">
-            Message frequency varies based on account activity. You will only receive SMS messages when account-related events occur that require a notification or alert. BWO Verify does not send recurring scheduled SMS messages.
+            Message frequency varies based on account activity. You will only receive SMS messages when account-related events occur that require a notification or alert. Volt Transactional does not send recurring scheduled SMS messages.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">5. Message & Data Rates</h2>
           <p className="text-gray-600 mb-6">
-            Standard message and data rates may apply depending on your mobile carrier and plan. BWO Verify is not responsible for any charges incurred from your mobile carrier related to SMS messages sent by our Service.
+            Standard message and data rates may apply depending on your mobile carrier and plan. Volt Transactional is not responsible for any charges incurred from your mobile carrier related to SMS messages sent by our Service.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">6. Supported Carriers</h2>
           <p className="text-gray-600 mb-6">
-            BWO Verify SMS messages are delivered via carrier-compliant 10DLC (10-Digit Long Code) infrastructure. SMS delivery is supported across all major U.S. carriers. Delivery times may vary by carrier and network conditions.
+            Volt Transactional SMS messages are delivered via carrier-compliant 10DLC (10-Digit Long Code) infrastructure. SMS delivery is supported across all major U.S. carriers. Delivery times may vary by carrier and network conditions.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">7. Help & Support</h2>
           <p className="text-gray-600 mb-6">
-            For help with SMS notifications, reply <strong>HELP</strong> to any SMS message from BWO Verify, or contact our support team directly:
+            For help with SMS notifications, reply <strong>HELP</strong> to any SMS message from Volt Transactional, or contact our support team directly:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@bwoverify.com" className="text-[#d364a4] hover:text-[#c24d93]">support@bwoverify.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@volttransactional.com" className="text-[#d364a4] hover:text-[#c24d93]">support@volttransactional.com</a></p>
             <p className="text-gray-600 mb-2"><strong>Phone:</strong> <a href="tel:+18444353969" className="text-[#d364a4] hover:text-[#c24d93]">(844) 435-3969</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://bwoverify.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://volttransactional.com</a></p>
           </div>
 
           <p className="text-gray-600 mb-6">
@@ -125,7 +125,7 @@ export default function SMSPolicyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
+              <h3 className="text-xl font-bold mb-4">Volt Transactional</h3>
               <p className="text-gray-400">
                 Carrier-compliant SMS verification for businesses.
               </p>
@@ -168,7 +168,7 @@ export default function SMSPolicyPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@bwoverify.com
+                support@volttransactional.com
               </p>
               <p className="text-gray-400 mt-2">
                 (844) 435-3969
@@ -184,13 +184,13 @@ export default function SMSPolicyPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2025 BWO Verify. All rights reserved.</p>
+            <p>&copy; 2025 Volt Transactional. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a
                 href="https://www.linkedin.com/company/120453967/admin/dashboard/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on LinkedIn"
+                aria-label="Volt Transactional on LinkedIn"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
@@ -201,7 +201,7 @@ export default function SMSPolicyPage() {
                 href="https://share.google/EAXcnRMGdAAxZKiTu"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on Google"
+                aria-label="Volt Transactional on Google"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">

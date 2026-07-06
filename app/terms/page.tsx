@@ -11,8 +11,8 @@ export default function TermsPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/bwo-verify-logo-trimmed.png" 
-                  alt="BWO Verify" 
+                  src="/volt-transactional-logo.png" 
+                  alt="Volt Transactional" 
                   width={300} 
                   height={100}
                   className="h-20 w-auto"
@@ -64,12 +64,12 @@ export default function TermsPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Acceptance of Terms</h2>
           <p className="text-gray-600 mb-6">
-            By accessing or using BWO Verify's omnichannel transactional messaging platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, organizations, and their authorized representatives who use the platform to deliver identity verification, transactional account notifications, one-time passwords, and related communications to their customers.
+            By accessing or using Volt Transactional's omnichannel transactional messaging platform ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not access or use the Service. These Terms apply to all users of the Service, including businesses, organizations, and their authorized representatives who use the platform to deliver identity verification, transactional account notifications, one-time passwords, and related communications to their customers.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Description of Service</h2>
           <p className="text-gray-600 mb-6">
-            BWO Verify is a complete omnichannel transactional messaging platform that enables businesses to verify customer identities, deliver account notifications, and send one-time passwords (OTPs) across multiple communication channels — including SMS, email, voice, RCS, and push notifications. The Service includes:
+            Volt Transactional is a complete omnichannel transactional messaging platform that enables businesses to verify customer identities, deliver account notifications, and send one-time passwords (OTPs) across multiple communication channels — including SMS, email, voice, RCS, and push notifications. The Service includes:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Consumer identity verification workflows (SMS, email, and voice)</li>
@@ -150,7 +150,7 @@ export default function TermsPage() {
           
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">7.1 Our Rights</h3>
           <p className="text-gray-600 mb-6">
-            The Service and all content, features, and functionality are owned by BWO Verify and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
+            The Service and all content, features, and functionality are owned by Volt Transactional and are protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service without our express written permission.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">7.2 Your Content</h3>
@@ -194,7 +194,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">10.2 Limitation of Liability</h3>
           <p className="text-gray-600 mb-6">
-            TO THE MAXIMUM EXTENT PERMITTED BY LAW, BWO VERIFY SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES.
+            TO THE MAXIMUM EXTENT PERMITTED BY LAW, VOLT TRANSACTIONAL SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">10.3 Maximum Liability</h3>
@@ -204,7 +204,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">11. Indemnification</h2>
           <p className="text-gray-600 mb-6">
-            You agree to indemnify, defend, and hold harmless BWO Verify and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
+            You agree to indemnify, defend, and hold harmless Volt Transactional and its officers, directors, employees, and agents from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) arising from:
           </p>
           <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
             <li>Your use of the Service</li>
@@ -256,7 +256,7 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">14.2 Entire Agreement</h3>
           <p className="text-gray-600 mb-6">
-            These Terms, together with our Privacy Policy, constitute the entire agreement between you and BWO Verify regarding the Service and supersede all prior agreements.
+            These Terms, together with our Privacy Policy, constitute the entire agreement between you and Volt Transactional regarding the Service and supersede all prior agreements.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">14.3 Severability</h3>
@@ -278,12 +278,12 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.1 Scope of SMS Use</h3>
           <p className="text-gray-600 mb-6">
-            BWO Verify only uses SMS to contact users about transactional account notifications and alerts within their portal. SMS messages are limited strictly to notifications directly triggered by account activity, such as account status updates and account-related alerts. No other use of SMS is permitted under this Service.
+            Volt Transactional only uses SMS to contact users about transactional account notifications and alerts within their portal. SMS messages are limited strictly to notifications directly triggered by account activity, such as account status updates and account-related alerts. No other use of SMS is permitted under this Service.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.2 No Marketing SMS</h3>
           <p className="text-gray-600 mb-6">
-            BWO Verify does not send promotional, marketing, or advertising SMS messages to users. All SMS communications sent by BWO Verify are strictly transactional in nature and are triggered by account-related events or user-initiated actions within the portal.
+            Volt Transactional does not send promotional, marketing, or advertising SMS messages to users. All SMS communications sent by Volt Transactional are strictly transactional in nature and are triggered by account-related events or user-initiated actions within the portal.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">15.3 Opt-Out</h3>
@@ -306,9 +306,9 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@bwoverify.com" className="text-[#d364a4] hover:text-[#c24d93]">legal@bwoverify.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@bwoverify.com" className="text-[#d364a4] hover:text-[#c24d93]">support@bwoverify.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://bwoverify.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@volttransactional.com" className="text-[#d364a4] hover:text-[#c24d93]">legal@volttransactional.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@volttransactional.com" className="text-[#d364a4] hover:text-[#c24d93]">support@volttransactional.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://volttransactional.com</a></p>
           </div>
 
         </div>
@@ -319,7 +319,7 @@ export default function TermsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
+              <h3 className="text-xl font-bold mb-4">Volt Transactional</h3>
               <p className="text-gray-400">
                 Carrier-compliant SMS verification for businesses.
               </p>
@@ -362,7 +362,7 @@ export default function TermsPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@bwoverify.com
+                support@volttransactional.com
               </p>
               <p className="text-gray-400 mt-2">
                 (844) 435-3969
@@ -378,13 +378,13 @@ export default function TermsPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2025 BWO Verify. All rights reserved.</p>
+            <p>&copy; 2025 Volt Transactional. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a
                 href="https://www.linkedin.com/company/120453967/admin/dashboard/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on LinkedIn"
+                aria-label="Volt Transactional on LinkedIn"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
@@ -395,7 +395,7 @@ export default function TermsPage() {
                 href="https://share.google/EAXcnRMGdAAxZKiTu"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on Google"
+                aria-label="Volt Transactional on Google"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">

@@ -11,8 +11,8 @@ export default function PrivacyPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/bwo-verify-logo-trimmed.png" 
-                  alt="BWO Verify" 
+                  src="/volt-transactional-logo.png" 
+                  alt="Volt Transactional" 
                   width={300} 
                   height={100}
                   className="h-20 w-auto"
@@ -64,7 +64,7 @@ export default function PrivacyPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">1. Introduction</h2>
           <p className="text-gray-600 mb-6">
-            BWO Verify ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our SMS verification service and website.
+            Volt Transactional ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our SMS verification service and website.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">2. Information We Collect</h2>
@@ -162,7 +162,7 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="text-gray-600 mb-6">
-            To exercise these rights, please contact us at <a href="mailto:privacy@bwoverify.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@bwoverify.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@volttransactional.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@volttransactional.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
@@ -200,9 +200,9 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@bwoverify.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@bwoverify.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@bwoverify.com" className="text-[#d364a4] hover:text-[#c24d93]">support@bwoverify.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://bwoverify.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:privacy@volttransactional.com" className="text-[#d364a4] hover:text-[#c24d93]">privacy@volttransactional.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@volttransactional.com" className="text-[#d364a4] hover:text-[#c24d93]">support@volttransactional.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://volttransactional.com</a></p>
           </div>
 
         </div>
@@ -213,7 +213,7 @@ export default function PrivacyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
+              <h3 className="text-xl font-bold mb-4">Volt Transactional</h3>
               <p className="text-gray-400">
                 Carrier-compliant SMS verification for businesses.
               </p>
@@ -256,7 +256,7 @@ export default function PrivacyPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@bwoverify.com
+                support@volttransactional.com
               </p>
               <p className="text-gray-400 mt-2">
                 (844) 435-3969
@@ -272,13 +272,13 @@ export default function PrivacyPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2025 BWO Verify. All rights reserved.</p>
+            <p>&copy; 2025 Volt Transactional. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a
                 href="https://www.linkedin.com/company/120453967/admin/dashboard/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on LinkedIn"
+                aria-label="Volt Transactional on LinkedIn"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
@@ -289,7 +289,7 @@ export default function PrivacyPage() {
                 href="https://share.google/EAXcnRMGdAAxZKiTu"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on Google"
+                aria-label="Volt Transactional on Google"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">

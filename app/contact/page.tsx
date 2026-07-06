@@ -28,8 +28,8 @@ export default function ContactPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image
-                  src="/bwo-verify-logo-trimmed.png"
-                  alt="BWO Verify"
+                  src="/volt-transactional-logo.png"
+                  alt="Volt Transactional"
                   width={300}
                   height={100}
                   className="h-20 w-auto"
@@ -106,10 +106,10 @@ export default function ContactPage() {
             <h2 className="text-xl font-bold text-gray-900 mb-2">Support Email</h2>
             <p className="text-gray-500 mb-4 text-sm">We typically respond within 24 hours</p>
             <a
-              href="mailto:support@bwoverify.com"
+              href="mailto:support@volttransactional.com"
               className="text-[#d364a4] font-semibold text-lg hover:underline"
             >
-              support@bwoverify.com
+              support@volttransactional.com
             </a>
           </div>
 
@@ -244,7 +244,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
+              <h3 className="text-xl font-bold mb-4">Volt Transactional</h3>
               <p className="text-gray-400">
                 SMS verification for businesses.
               </p>
@@ -287,7 +287,7 @@ export default function ContactPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@bwoverify.com
+                support@volttransactional.com
               </p>
               <p className="text-gray-400 mt-2">
                 (844) 435-3969
@@ -303,13 +303,13 @@ export default function ContactPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-400">
-            <p>&copy; 2025 BWO Verify. All rights reserved.</p>
+            <p>&copy; 2025 Volt Transactional. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a
                 href="https://www.linkedin.com/company/120453967/admin/dashboard/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on LinkedIn"
+                aria-label="Volt Transactional on LinkedIn"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
@@ -320,7 +320,7 @@ export default function ContactPage() {
                 href="https://share.google/EAXcnRMGdAAxZKiTu"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="BWO Verify on Google"
+                aria-label="Volt Transactional on Google"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">

@@ -1,5 +1,5 @@
 {
-  "name": "bwo-verify",
+  "name": "volt-transactional",
   "version": "0.1.0",
   "private": true,
   "scripts": {

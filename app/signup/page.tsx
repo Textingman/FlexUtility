@@ -46,8 +46,8 @@ export default function SignupPage() {
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
                 <Image 
-                  src="/bwo-verify-logo-trimmed.png" 
-                  alt="BWO Verify" 
+                  src="/volt-transactional-logo.png" 
+                  alt="Volt Transactional" 
                   width={300} 
                   height={100}
                   className="h-20 w-auto"
@@ -82,7 +82,7 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
-              Get Started with BWO Verify
+              Get Started with Volt Transactional
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Fill out the form below and we'll get back to you within 24 hours to set up your account.
@@ -115,7 +115,7 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for BWO Verify</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for Volt Transactional</h2>
                 <p className="text-gray-600">
                   Complete the form below to start verifying your customers with confidence.
                 </p>
@@ -221,7 +221,7 @@ export default function SignupPage() {
                     value={formData.message}
                     onChange={handleChange}
                     className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent text-black"
-                    placeholder="How do you plan to use BWO Verify?"
+                    placeholder="How do you plan to use Volt Transactional?"
                   />
                 </div>
 
@@ -236,7 +236,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-[#d364a4] focus:ring-[#d364a4] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box and submitting this form, you agree to receive account notification text messages from BWO Verify. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@bwoverify.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by BWO Verify.
+                        By checking this box and submitting this form, you agree to receive account notification text messages from Volt Transactional. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@volttransactional.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by Volt Transactional.
                       </label>
                     </div>
                   </div>
@@ -297,7 +297,7 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">BWO Verify</h3>
+              <h3 className="text-xl font-bold mb-4">Volt Transactional</h3>
               <p className="text-gray-400">
                 Carrier-compliant SMS verification for businesses.
               </p>
@@ -335,7 +335,7 @@ export default function SignupPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@bwoverify.com
+                support@volttransactional.com
               </p>
             </div>
             <div>
@@ -348,7 +348,7 @@ export default function SignupPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 BWO Verify. All rights reserved.</p>
+            <p>&copy; 2025 Volt Transactional. All rights reserved.</p>
           </div>
         </div>
       </footer>
