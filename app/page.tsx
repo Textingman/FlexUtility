@@ -433,14 +433,6 @@ export default function HomePage() {
                 Portland, OR 97213<br />
                 United States of America
               </p>
-              <a
-                href="https://textingman-volttransactional.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white mt-2 block"
-              >
-                textingman-volttransactional.vercel.app
-              </a>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-gray-400">
